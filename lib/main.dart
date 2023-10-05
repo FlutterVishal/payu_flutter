@@ -244,7 +244,7 @@ class PayUParams {
 }
 
 class PayUTestCredentials {
-  static const merchantKey = "oZ7oo9"; //TODO: Add Merchant Key
+  static const merchantKey = "smsplus"; //TODO: Add Merchant Key
   //Use your success and fail URL's.
 
   static const iosSurl =
@@ -262,8 +262,8 @@ class PayUTestCredentials {
 }
 
 class HashService {
-  static const merchantSalt = "UkojH5TS"; // Add you Salt here.
-  static const merchantSecretKey = "oZ7oo9"; // Add Merchant Secrete Key - Optional
+  static const merchantSalt = "smsplus"; // Add you Salt here.
+  static const merchantSecretKey = "ads123"; // Add Merchant Secrete Key - Optional
 
   static Map generateHash(Map response) {
     var hashName = response[PayUHashConstantsKeys.hashName];
